@@ -1,14 +1,22 @@
 {
-  "name": "Vibefinder",
-  "description": "Vibefinder is a Base Mini App built with Zara.",
-  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
-  "external_url": "https://vibefinder.vistara.dev",
-  "properties": {
-    "app": {
-      "name": "Vibefinder",
-      "description": "Vibefinder is a Base Mini App built with Zara.",
-      "url": "https://vibefinder.vistara.dev",
-      "icon": "https://0co.to/images/zara-2.png"
+  "name": "VibeFinder",
+  "short_name": "VibeFinder",
+  "description": "Your AI guide to trending local spots. Discover trending local experiences and events based on real-time social media video analysis.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#4361ee",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  }
+  ]
 }
+
